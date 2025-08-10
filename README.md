@@ -1,85 +1,78 @@
-IlluviumTestProject
+Illuvium Test Project
 
-Hi there,
-===
 
-# 
 
-# Here is the link to the Git repository for the test project:
+To run the simulation just press play in the editor. 
 
-# 
 
-# https://github.com/IAmToma99/IlluviumTestProject.git
 
-# 
+To test different scenarios, the following properties can be adjusted:
 
-# To test different scenarios, the following properties can be adjusted:
+Content/Blueprints/BP\_MapGenerator.uasset
 
-# Content/Blueprints/BP\_MapGenerator.uasset
+•	Radius
 
-# •	Radius
+•	Hex Size
 
-# •	Hex Size
+Content/Blueprints/IlluviumTestGameMode.uasset
 
-# Content/Blueprints/IlluviumTestGameMode.uasset
+•	Seed
 
-# •	Seed
+•	RedUnitsNum
 
-# •	RedUnitsNum
+•	BlueUnitsNum
 
-# •	BlueUnitsNum
+•	TimeStepSeconds
 
-# •	TimeStepSeconds
+•	MapRadius
 
-# •	MapRadius
+•	HexSize
 
-# •	HexSize
 
-# 
 
-# &nbsp;Project logic structure:
+&nbsp;Project logic structure:
 
-# •	IlluviumTestGameMode
+•	IlluviumTestGameMode
 
-# &nbsp;       Simulation :
+&nbsp;       Simulation :
 
-# •	BattleSimulator 
+•	BattleSimulator 
 
-# •	HexCoord
+•	HexCoord
 
-# •	SimUnit
+•	SimUnit
 
-# &nbsp;       Visual :
+&nbsp;       Visual :
 
-# •	MapGenerator
+•	MapGenerator
 
-# •	VisualUnitActor
+•	VisualUnitActor
 
-# •	Actions
+•	Actions
 
-# 
 
-# I implemented the map with a radius of 50 to approximately match the requirements of a 100x100 square grid. Since the camera is set to frame the entire map, elements appear smaller, which reduces visibility.
 
-# For easier visualization, the map size can be reduced together with the camera’s orthographic size:
+I implemented the map with a radius of 50 to approximately match the requirements of a 100x100 square grid. Since the camera is set to frame the entire map, elements appear smaller, which reduces visibility.
 
-# 1\.	In the editor, select MapGenerator in the hierarchy. 
+For easier visualization, the map size can be reduced together with the camera’s orthographic size:
 
-# 2\.	Under the MapGenerator section, set Radius to the desire size (e.g. 10 for better visibility)
+1\.	In the editor, select MapGenerator in the hierarchy. 
 
-# 3\.	Press the GenerateMap button in the same section. 
+2\.	Under the MapGenerator section, set Radius to the desire size (e.g. 10 for better visibility)
 
-# 4\.	Select the CameraActor in the hierarchy and reduce its orthographic size to improve element visibility. 
+3\.	Press the GenerateMap button in the same section. 
 
-# 5\.	Open the IlluviumTestGameMode blueprint and set MapRadius to the same value. 
+4\.	Select the CameraActor in the hierarchy and reduce its orthographic size to improve element visibility. 
 
-# 
+5\.	Open the IlluviumTestGameMode blueprint and set MapRadius to the same value. 
 
-# Thank you, and feel free to contact me if you have any questions.
 
-# &nbsp;
 
-# 
+Thank you, and feel free to contact me if you have any questions.
+
+&nbsp;
+
+
 
 
 
